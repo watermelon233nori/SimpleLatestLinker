@@ -1,4 +1,6 @@
-# SimpleResetSoftLink
+# LatestLinker
+
+I will develop this app through C# one day. Now I just use this python file to set my soft link. (noted on 2023-04-30)
 
 A useless shit.
 
