@@ -10,7 +10,7 @@ print('--------------')
 numTemp = 0
 for numDisp in dirList:
     numTemp += 1
-    print(str(numTemp) + ": " + str(numDisp))
+    print(numTemp + ": " + numDisp)
 print('--------------')
 while True:
     try:
@@ -20,7 +20,7 @@ while True:
     else:
         break
 subprocess.call('rd latest>nul', shell=True)
-subprocess.call(['mklink', '/J', 'latest', dirList[int(int(verIndex)-1)], '>nul'], shell=True)
+subprocess.call(['mklink', '/J', 'latest', dirList[int(verIndex)-1], '>nul'], shell=True)
 print('Done!')
 print('Press any key to quit.')
 os.system('pause>nul')
