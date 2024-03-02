@@ -13,10 +13,13 @@ for numDisp in dirList:
     print(numTemp + ": " + numDisp)
 print('--------------')
 while True:
-    try:
-        verIndex = int(input('Input the number: '))
-    except ValueError:
-        print('\033[0;33m[Warning]\033[0m Please enter a number. ')
+    verIndex = int(input('Input the number: '))
+    if ValueError:
+        print('\033[0;33m[Warning]\033[0m Please enter a number.')
+    elif verIndex > len(dirList):
+        print('\033[0;33m[Warning]\033[0m The number is too big.')
+    elif verIndex < 0:
+        print('\033[0;33m[Warning]\033[0m The number should be a positive number.')
     else:
         break
 subprocess.call('rd latest>nul', shell=True)
