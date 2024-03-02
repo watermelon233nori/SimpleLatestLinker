@@ -1,6 +1,6 @@
 # LatestLinker
 
-This can generate a soft link to the folder for the latest version of a program. Windows only (because the main function is implemented by calling)
+This can generate a soft link to the folder for the latest version of a program. Windows only (because the main function is implemented by sending specific commands)
 
 In such a directory structure like this: 
 
