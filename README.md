@@ -39,4 +39,4 @@ Input the number:
 
 Just input the number! The script will generate a soft link which can direct to the directory corresponding to the number you input.
 
-I often use it on command-line tools, so I can change the GUI program's configuration (e.g. *path to ffmpeg and ffprobe binaries (executable)* is `D:\Portable Programs\FFmpeg\latest\`). If these command-line tools update, I just need decompress the package to the FFmpeg version directory and run the script so that I don't need to change the configuration.
+I often use it on command-line tools, so I can change the GUI program's configuration (e.g. *path to ffmpeg and ffprobe binaries (executable)* is `D:\FFmpeg\latest\`). If these command-line tools update, I just need decompress the package to the FFmpeg version directory and run the script so that I don't need to change the configuration.
